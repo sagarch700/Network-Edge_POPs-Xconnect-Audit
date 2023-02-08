@@ -1,0 +1,3 @@
+Present on Router, but not in xconnect db, xconnect-id: 1-0213859592 and Router hostname & port: SNGREQNXIGR002 - Ethernet1/3 
+Present in xconnect db, but not on router, xconnect-id: 1-3213859592, POP Location: Singapore 
+Present in xconnect db, but not on router, xconnect-id: 1-321395678, POP Location: London 
