@@ -21,12 +21,14 @@ no_of_xconnect_id = list()
 no_of_customer_ckt_id = list()
 no_of_xconnect_id_db = list()
 POP_location = list()
+
+# Getting username and password from the terminal instead of saving in raw format
 username = input("Username: ")
 password = getpass.getpass()
 
 # Getting the POP location details and their coresspondong router's ip addresses
 # .txt file format should be Location:ip of r1:ip of r2 and so on
-with open('LocationIP_1', 'r') as f:
+with open('Edge_POP_Location_IP', 'r') as f:
     r = f.read().splitlines()
 location_ip_list = list()
 for items in r:
